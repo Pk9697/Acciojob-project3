@@ -16,18 +16,18 @@
 		<!-- Header -->
 		<header class="header">
 			<a href="#" class="header__logo">Pizza Restaurant</a>
-			<ul class="header__nav">
-				<li><a href="#">About us</a></li>
-				<li><a href="#">Menu</a></li>
-				<li><a href="#">Blogs</a></li>
-				<li><a href="#">Testimony</a></li>
-				<li><a href="#">Find us</a></li>
-				<li><a href="#">Our team</a></li>
+			<ul class="header__nav" aria-label="Primary Navigation">
+				<li><a href="#" aria-label="About us">About us</a></li>
+				<li><a href="#" aria-label="Menu">Menu</a></li>
+				<li><a href="#" aria-label="Blogs">Blogs</a></li>
+				<li><a href="#" aria-label="Testimony">Testimony</a></li>
+				<li><a href="#" aria-label="Find us">Find us</a></li>
+				<li><a href="#" aria-label="Our team">Our team</a></li>
 			</ul>
 			<ul class="header__social">
-				<li><i class="fa-brands fa-instagram"></i></li>
-				<li><i class="fa-brands fa-facebook-f"></i></li>
-				<li><i class="fa-brands fa-whatsapp"></i></li>
+				<li aria-label="Instagram"><i class="fa-brands fa-instagram"></i></li>
+				<li aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></li>
+				<li aria-label="Whatsapp"><i class="fa-brands fa-whatsapp"></i></li>
 			</ul>
 		</header>
 
@@ -62,7 +62,7 @@
 					</p>
 				</div>
 				<div class="about__image">
-					<img src="./images/dough.png" />
+					<img src="./images/dough.png" alt="about-image"/>
 				</div>
 			</div>
 		</div>
@@ -83,7 +83,7 @@
 			<div class="menu__container">
 				<div class="menu__card">
 					<div class="menu__image">
-						<img src="./images/pizza.png" />
+						<img alt="menu-image" src="./images/pizza.png" />
 					</div>
 					<div class="menu__details">
 						<h5 class="menu__title">LOREM IPSUM</h5>
@@ -95,7 +95,7 @@
 				</div>
 				<div class="menu__card">
 					<div class="menu__image">
-						<img src="./images/pizza2.png" />
+						<img alt="menu-image" src="./images/pizza2.png" />
 					</div>
 					<div class="menu__details">
 						<h5 class="menu__title">LOREM IPSUM</h5>
@@ -107,7 +107,7 @@
 				</div>
 				<div class="menu__card">
 					<div class="menu__image">
-						<img src="./images/bread.png" />
+						<img alt="menu-image" src="./images/bread.png" />
 					</div>
 					<div class="menu__details">
 						<h5 class="menu__title">LOREM IPSUM</h5>
@@ -119,7 +119,7 @@
 				</div>
 				<div class="menu__card">
 					<div class="menu__image">
-						<img src="./images/bread2.png" />
+						<img alt="menu-image" src="./images/bread2.png" />
 					</div>
 					<div class="menu__details">
 						<h5 class="menu__title">LOREM IPSUM</h5>
@@ -131,7 +131,7 @@
 				</div>
 				<div class="menu__card">
 					<div class="menu__image">
-						<img src="./images/food.png" />
+						<img alt="menu-image" src="./images/food.png" />
 					</div>
 					<div class="menu__details">
 						<h5 class="menu__title">LOREM IPSUM</h5>
@@ -143,7 +143,7 @@
 				</div>
 				<div class="menu__card">
 					<div class="menu__image">
-						<img src="./images/shake1.png" />
+						<img alt="menu-image" src="./images/shake1.png" />
 					</div>
 					<div class="menu__details">
 						<h5 class="menu__title">LOREM IPSUM</h5>
@@ -166,6 +166,7 @@
 				id="carouselExampleIndicators"
 				class="carousel slide"
 				data-bs-ride="carousel"
+                aria-label="Product Carousel"
 			>
 				<div class="carousel-indicators">
 					<button
@@ -203,19 +204,19 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="./images/pizza.png" class="carousel__image" alt="..." />
+						<img alt="carousel-image" src="./images/pizza.png" class="carousel__image" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="./images/pizza2.png" class="carousel__image" alt="..." />
+						<img alt="carousel-image" src="./images/pizza2.png" class="carousel__image" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="./images/bread.png" class="carousel__image" alt="..." />
+						<img alt="carousel-image" src="./images/bread.png" class="carousel__image" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="./images/bread2.png" class="carousel__image" alt="..." />
+						<img alt="carousel-image" src="./images/bread2.png" class="carousel__image" alt="..." />
 					</div>
 					<div class="carousel-item">
-						<img src="./images/food.png" class="carousel__image" alt="..." />
+						<img alt="carousel-image" src="./images/food.png" class="carousel__image" alt="..." />
 					</div>
 				</div>
 				<button
@@ -247,22 +248,22 @@
 			</div>
 			<div class="gallery__container">
 				<div class="gallery__image1">
-					<img src="./images/pizza.png" />
+					<img alt="gallery-image" src="./images/pizza.png" />
 				</div>
 				<div class="gallery__image2">
-					<img src="./images/pizza2.png" />
+					<img alt="gallery-image" src="./images/pizza2.png" />
 				</div>
 				<div class="gallery__image3">
-					<img src="./images/bread.png" />
+					<img alt="gallery-image" src="./images/bread.png" />
 				</div>
 				<div class="gallery__image4">
-					<img src="./images/bread2.png" />
+					<img alt="gallery-image" src="./images/bread2.png" />
 				</div>
 				<div class="gallery__image5">
-					<img src="./images/food.png" />
+					<img alt="gallery-image" src="./images/food.png" />
 				</div>
 				<div class="gallery__image6">
-					<img src="./images/shake1.png" />
+					<img alt="gallery-image" src="./images/shake1.png" />
 				</div>
 			</div>
 		</div>
@@ -285,7 +286,7 @@
 						<p>Location XYZ, XYZ Colony, Delhi</p>
 					</div>
 					<div class="contact__phone">
-						<i class="fas fa-phone-alt"></i>
+						<i class="fas fa-phone"></i>
 						<div class="contact__phone-container">
 							<p>123-456-789</p>
 							<p>987-654-321</p>
@@ -303,7 +304,26 @@
 						src="https://maps.google.com/maps?q=Jamshedpur%2CJharkhand&t=&z=13&ie=UTF8&iwloc=&output=embed"
 					>
 					</iframe>
-					
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div class="footer">
+			<div class="footer__image">
+				<img alt="footer-image" src="./images/Group.png" />
+			</div>
+			<div class="footer__details">
+				<div class="footer__contact">
+					<i class="fa-regular fa-envelope"></i>
+					mail@gmail.com
+				</div>
+				<div class="footer__contact">
+					<i class="fas fa-phone"></i>
+					<div class="footer__phone-container">
+						<p>123-456-789</p>
+						<p>987-654-321</p>
+					</div>
 				</div>
 			</div>
 		</div>

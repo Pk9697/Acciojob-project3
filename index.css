@@ -392,3 +392,36 @@ img {
         gap:3em;
     }
 }
+
+/* FOOTER */
+
+.footer {
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__image{
+    max-width: 100px;
+}
+
+.footer__details{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.footer__contact{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+@media (min-width: 640px) {
+	.footer {
+		padding: 3em;
+		gap: 3em;
+	}
+}
